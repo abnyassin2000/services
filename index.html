@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home - Skills & Services Exchange</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="servies.html">Services</a></li>
+      <li><a href="connect.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <h1>Welcome to Skills and Micro-Services Exchange Platform</h1>
+    <p>Exchange skills and services with ease!</p>
+
+    <section class="add-service">
+      <h2>Add a New Service</h2>
+      <form id="serviceForm">
+        <input type="text" id="title" placeholder="Service Title" required />
+        <input type="text" id="description" placeholder="Service Description" required />
+        <input type="url" id="image" placeholder="Image URL (optional)" />
+        <input type="number" id="rating" placeholder="Rating (0-5)" min="0" max="5" required />
+        <button type="submit">Add Service</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>

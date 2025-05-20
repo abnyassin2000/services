@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Skills & Services Exchange</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <form id="contactForm">
+      <input type="text" id="contactName" placeholder="Your Name" required />
+      <input type="email" id="contactEmail" placeholder="Your Email" required />
+      <textarea id="contactMessage" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div id="contactStatus"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
